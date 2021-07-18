@@ -1,6 +1,6 @@
 # flutter_bloc_and_validation
 
-A new Flutter project.
+Ejemplo Sencillo de como implementar Bloc, BlocBuilder y Validacion  desde un formulario Flutter.
 
 ## Getting Started
 
