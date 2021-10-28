@@ -212,6 +212,7 @@ class _FormSaleOfferState extends State<FormSaleOffer>
       ),    
       onPressed: tobButtonPressed);
   }
+  
   //-------------------------------------------------
   // _fobViewFieldsForm: Vista Campos de captura formulario
   //-------------------------------------------------
