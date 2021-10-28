@@ -26,7 +26,7 @@ class SaleOfferFormBloc extends Object with ValidSaleOffer implements BlocBase
   final BehaviorSubject<String> _g1priceController = BehaviorSubject<String>.seeded("0");
 
   //------------------------------------------------
-  // Flujo de datos
+  // Flujo de datos y pasan a validacion
   //------------------------------------------------
 
   Stream<String> get g1note => _g1noteController.stream.transform(fcrValidnote);
