@@ -54,9 +54,9 @@ class ValidSaleOffer
       if (lobExpValid.hasMatch(price))
       {
         var lnuValue = fdoSisParseDouble(price);  
-        if (lnuValue <= 20 || lnuValue >= 100)
+        if (lnuValue < 20 || lnuValue > 100)
         {
-          sink.addError('Valor no valido (Permitido entre 20 y 100)');
+          sink.addError('Precio no valido (Permitido entre 20 y 100 Pesos)');
         }
         else
         {
