@@ -34,7 +34,7 @@ class SaleOfferFormBloc extends Object with ValidSaleOffer implements BlocBase
   Stream<String> get g1price => _g1priceController.stream.transform(fflValidprice);
 
   //------------------------------------------------
-  // Funciones Validacion 
+  // llegan los datos desde la vista al controlador
   //------------------------------------------------
   /// Descripcion de la oferta
   Function(String) get onG1noteChanged => _g1noteController.sink.add;
